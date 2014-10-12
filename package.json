@@ -1,0 +1,40 @@
+{
+  "name": "nw-versions",
+  "version": "1.0.0",
+  "description": "Get a list of node-webkit's available versions",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "request": "^2.45.0",
+    "semver": "^4.0.3",
+    "sliced": "0.0.5"
+  },
+  "devDependencies": {
+    "tap-spec": "^1.0.0",
+    "tape": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/nw-versions.git"
+  },
+  "keywords": [
+    "node-webkit",
+    "nw",
+    "versions",
+    "scrape",
+    "html"
+  ],
+  "homepage": "https://github.com/hughsk/nw-versions",
+  "bugs": {
+    "url": "https://github.com/hughsk/nw-versions/issues"
+  }
+}
